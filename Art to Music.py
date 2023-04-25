@@ -5,7 +5,7 @@
 
 #Import our libraries
 
-#Keep trcak of music settings
+#Keep track of music settings
 #Handle user input
 
 #See if they want to use their own image or a sample image
