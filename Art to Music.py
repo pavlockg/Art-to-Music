@@ -1,20 +1,20 @@
-# CSC 1570 project to convert Art to Music
-# Gavin Pavlock
-# 04/20/2023
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+def foo():
+	print('bar')
 
 
-#Import our libraries
+st.set_page_config(layout='wide')
+st.title('Streamlit Column Test with modified standard theme')
+col1, col2 = st.columns([3, 1])
+data = np.random.randn(10, 1)
 
-#Keep track of music settings
-#Handle user input
+with col1:
+	st.subheader("A wide column with a chart")
+	st.line_chart(data)
 
-#See if they want to use their own image or a sample image
-#See if we have an image
-
-#Save image into a temp file
-#Ask computer to view image
-#Grab hue some HSV (Hue,Saturation,Value)
-#Separate the hues out and convert them to frequencies
-#Generic song save
-#Make an effected version of the song
-#Save the final song and make a midi 
+with col2:
+	st.subheader("A narrow column with the data")
+	st.write(data)
