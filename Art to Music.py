@@ -18,3 +18,6 @@ with col1:
 with col2:
 	st.subheader("A narrow column with the data")
 	st.write(data)
+    
+    st.set_page_config(layout='wide')
+st.title('Streamlit Test App')
