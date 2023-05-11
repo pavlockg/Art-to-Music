@@ -7,6 +7,8 @@ Created on 5-9-23
 
 #Import necessary libraries
 import streamlit as st
+from PIL import image
+image = image.open(water.jpg)
 import pandas as pd
 import numpy as np
 import cv2
