@@ -400,12 +400,3 @@ else:
     st.write("Waiting for an image to be uploaded...")
 #st.markdown("# Main page 🎈")
 #st.sidebar.markdown("# Main page 🎈")
-
-st .set_page_config(
-        page_title="Hello",
-        page_icon="=)"
-)
-
-st.write("Welcome to Streamlit!")
-st.sidebar.success("Select a demo above.")
-st.markdown( )
