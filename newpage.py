@@ -5,6 +5,5 @@ st .set_page_config(
         page_icon="=)"
 )
 
-st.write("Welcome to Streamlit!")
-st.sidebar.success("Select a demo above.")
-st.markdown( )
+st.title("Main Page")
+st.sidebar.success("Select a page above")
