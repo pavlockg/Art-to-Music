@@ -18,14 +18,6 @@ from scipy.io import wavfile
 import librosa
 import glob
 
-st .set_page_config(
-        page_title="Hello",
-        page_icon="=)"
-)
-
-st.write("Welcome to Streamlit!")
-st.sidebar.success("Select a demo above.")
-st.markdown( )
 
 #This function generates frequencies in Hertz from notes
 def get_piano_notes():   
