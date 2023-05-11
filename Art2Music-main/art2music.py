@@ -321,7 +321,7 @@ with lf3:
     drive_lad     = st.slider('drive', min_value=1.0, max_value=100.0, step=0.1, value=1.0)
 
 #st.markdown("### Phaser Parameters")
-ch1,ps1 = st.columns(3) 
+ch1,ps1 = st.columns(2) 
 #Phaser Parameters
 with ch1:
     st.markdown("### Phaser Parameters")
