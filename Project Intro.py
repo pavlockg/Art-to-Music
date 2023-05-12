@@ -8,3 +8,4 @@
 
 #Changed color scheme
 #Imported my own image from the art gallery upstairs
+#Added tabs to top of page for preferences questions between art and music
