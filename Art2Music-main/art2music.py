@@ -25,25 +25,23 @@ import numpy as np
 def foo():
 	print('bar')
 
-
+# Asks preferences for Art and Music
+#Was going to provide link to help page but couldn't get it running
 st.set_page_config(layout='wide')
-st.title('Streamlit Tab Test with Custom Colors')
-tab1, tab2, tab3 = st.tabs(["Tab 1", "Tab2", "Tab3"])
+st.title('Preferences between Art and Music')
+tab1, tab2, = st.tabs(["Tab 1", "Tab2",])
 
 with tab1:
-	st.subheader('Widgets')
+	st.subheader('Interface Help')
 	st.button('Click me')
-	st.checkbox('I agree')
+	
 
 with tab2:
-	st.radio('Pick one', ['cats', 'dogs'])
-	st.selectbox('Pick one', ['cats', 'dogs'])
-	st.multiselect('Buy', ['milk', 'apples', 'potatoes'])
+	st.radio('Pick one', ['music', 'images'])
+	st.selectbox('Pick one', ['color', 'sound'])
+	
 
-with tab3:
-	st.slider('Pick a number', 0, 100,50)
-	st.select_slider('Pick a size', ['S', 'M', 'L'])
-	st.text_input('First name')
+
 
 #This function generates frequencies in Hertz from notes
 def get_piano_notes():   
