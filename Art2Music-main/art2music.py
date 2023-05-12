@@ -237,22 +237,22 @@ elif _radio == "Use User Image":
 #Display the image
 st.sidebar.image(img2load)    
 
-tab1, tab2, tab3, tab4 = st.tabs(4)
+tab1, tab2, tab3, tab4 = st.tab(4)
 
-with col1:
+with tab1:
     scale = st.selectbox('What scale would you like yo use?', df1['Scale_Choice'])
 
     'You selected the ' + scale + ' scale'
-with col2:
+with tab2:
     key = st.selectbox('What key would you like to use?', df2['Keys']) 
     
     'You selected: ', key
 
-with col3:
+with tab3:
     octave = st.selectbox('What octave would you like to use?', df3['Octaves']) 
 
     'You selected: ', octave
-with col4:
+with tab4:
     harmony = st.selectbox('What harmony would you like to use?', df4['Harmonies']) 
 
     'You selected: ', harmony
